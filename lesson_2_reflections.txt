@@ -1,4 +1,27 @@
 What happens when you initialize a repository?  Why do you need to do it?  
 
 	initial housekeeping occurs - everything needs a beginning
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?  
+
+	staging area is a "logical compartment" and subset so you can devote less resources if there's a lot of files that aren't going to be changed?
+
+How can you use the staging area to make sure you have one commit per logical change?  
+
+	by keeping an eye on which files have been put into the staging area, and they should be files all logically related to "one" thing?
+	
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help? 
+
+	when you want to embark on major experimentation or your development groups need to diverge yet you might want to merge them again in the future
+
+How do the diagrams help you visualize the branch structure?  
+
+	because that is what they are
+
+What is the result of merging two branches together?  why do we represent it in the diagram the way we do? 
+
+	you create one branch, and when you create one branch you need to decide which takes over
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	saving time vs. being certain of errors?
 	
