@@ -6,3 +6,8 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	network connectivity + you don't want the ground changing under you without you knowing it
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	forks - splitting off from something you don't control
+	branch - splitting off from something you do control
+	clones - making a manually-controlled mirror
